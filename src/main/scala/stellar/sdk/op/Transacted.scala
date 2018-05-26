@@ -4,7 +4,7 @@ import java.time.ZonedDateTime
 
 import org.json4s.JsonAST.JObject
 import org.json4s.{CustomSerializer, DefaultFormats}
-import stellar.sdk._
+import stellar.sdk.xdr._
 
 case class Transacted[O <: Operation](id: Long,
                                       txnHash: String,

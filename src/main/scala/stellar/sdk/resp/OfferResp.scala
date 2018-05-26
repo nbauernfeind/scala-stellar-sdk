@@ -2,7 +2,7 @@ package stellar.sdk.resp
 
 import org.json4s.JsonAST.JObject
 import org.json4s.{CustomSerializer, DefaultFormats}
-import stellar.sdk._
+import stellar.sdk.xdr._
 
 case class OfferResp(id: Long, seller: PublicKeyOps, selling: Amount, buying: Asset, price: Price)
 

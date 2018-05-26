@@ -2,7 +2,7 @@ package stellar.sdk.resp
 
 import org.json4s.JsonAST.JObject
 import org.json4s.{CustomSerializer, DefaultFormats}
-import stellar.sdk._
+import stellar.sdk.xdr._
 
 case class AssetResp(asset: NonNativeAsset, amount: Long, numAccounts: Int, authRequired: Boolean, authRevocable: Boolean)
 

@@ -2,7 +2,7 @@ package stellar.sdk.resp
 
 import org.json4s.JsonAST.{JArray, JObject}
 import org.json4s.{CustomSerializer, DefaultFormats}
-import stellar.sdk._
+import stellar.sdk.xdr._
 
 // e.g. https://horizon-testnet.stellar.org/accounts/GDGUM5IKSJIFQEHXAWGQD2IWT2OUD6YTY4U7D7SSZLO23BVWHAFL54YN
 case class AccountResp(id: String,

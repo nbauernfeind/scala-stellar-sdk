@@ -6,7 +6,7 @@ import org.json4s.{CustomSerializer, DefaultFormats}
 import org.stellar.sdk.xdr.Operation.OperationBody
 import org.stellar.sdk.xdr.OperationType._
 import org.stellar.sdk.xdr.{Operation => XDROp}
-import stellar.sdk._
+import stellar.sdk.xdr._
 
 import scala.util.{Success, Try}
 

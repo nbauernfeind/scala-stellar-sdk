@@ -4,7 +4,7 @@ import org.stellar.sdk.xdr.Operation.OperationBody
 import org.stellar.sdk.xdr.OperationType.SET_OPTIONS
 import org.stellar.sdk.xdr.{Signer => XDRSigner, _}
 import stellar.sdk.XDRPrimitives._
-import stellar.sdk._
+import stellar.sdk.xdr._
 
 import scala.util.Try
 
